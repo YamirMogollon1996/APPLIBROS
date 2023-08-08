@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+.texto{
+
+  text-align: center;
+  padding-bottom: 3em;
+}
+.Socilaizo{
+
+  border: 1px solid rgb(202, 196, 196);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr) ;
+  gap: 20px;
+  padding: 1em;
+  width: 80%;
+  margin: auto;
+
+}
+.mutarlaclase{
+
+
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.render{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.render  div {
+
+    border: 1px solid rgb(174, 162, 185);
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.denter{
+  /* border: 1px solid gray; */
+  display: flex;
+padding: 1em;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.Novedad{
+
+  display: flex;
+}
+.denter div { 
+
+  border: 1px solid gold;
+  padding: 0.5em;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.session_form form  {
+
+  /* border: 1px solid aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.session_form form >  * {
+
+  width: 400px;
+  padding: 0.5em;
+  border-radius:5% ;
+  border: none;
+  border: 1px solid gray;
+  outline: none;
+  max-width: 300px;
+}
+
+button {
+
+  cursor: pointer;
+  background: royalblue;
+  border: none;
+  padding: 1em;
+  width: 100px;
+  margin: .3em;
+  color: whitesmoke;
+  outline: none;
+  border-radius: 5px;
+
+  
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

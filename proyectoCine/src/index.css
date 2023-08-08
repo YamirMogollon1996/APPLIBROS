@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+*{
+font-family: 'Open Sans', sans-serif;
+
+}
+body{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.itemCenter{
+  border: 1px solid rgb(221, 220, 220);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+}
+.filtro_busquedad{
+
+
+
+  width: 70%;
+  padding: 0;
+  height: 40px;
+  position: relative;
+  top: 25px;
+  outline: none;
+  color: white ;
+  background: #0c0c0c;
+  margin-right: 1em;
+}
+
+.Container{
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+}
+.itemCenter button{
+  width: auto;
+}
+.Goding{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+}
+.SelectedPos{
+
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+}
+.SelectedPos:focus { 
+
+  border: 1px solid rosybrown;
+}
+.grid{
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  place-content: center;
+}
+.grid  img {
+
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.narbarbar  {
+
+
+  display: flex;
+  pad: 2em;
+  border-bottom: 1px solid rgb(189, 180, 180);
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  top: 0;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4em;
+
+}
+
+.narbarbar    li {
+
+    list-style: none;
+    transition: all 1s ease-in-out;
+    padding: 1em;
+    border-radius: 5px;
+
+}
+
+li:hover{
+    transition: all .5s ease-in-out;
+  border: 1px solid rgb(161, 109, 212);
+  /* padding: .3em; */
+
+}
+
+
+.Book-session{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.Libroitema{
+
+  border: 1px solid rgb(245, 241, 241);
+  padding: 1em;
+  border-radius:5px ;
+  text-align: center;
+  display: flex;
+  margin: 0;
+  transition: all .5s ease-in-out;
+  
+}
+
+.Libroitema:hover  {
+
+  transition: all .5s ease-in-out;
+  border: 1px solid rgb(161, 109, 212);
+  filter: grayscale(30deg);
+  transform: scale(1.1);
+  
+  
+}
+.Senencia{
+
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  transform: translateX(-550px);
+  width: 500px;
+  transition: all .5s ease-in-out;
+  z-index: 1000;
+  background-color: #0c0c0c;
+  /* opacity: 0.8; */
+  text-align: center;
+  border-right-color:1px  saddlebrown ;
+  color: white;
+  padding: 1em;
+  opacity: 0.9;
+  position: fixed;
+
+  
+}
+.div_children{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+.div_children >  * {
+    width: 30%;
+    height: 40px;
+
+}
+
+
+.Modifico  {
+
+    transform: translateX(0);
+}
+.redicuiusTotalum{
+  /* margin: 0; */
+  padding: 0;
+}
+
+.close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  /* width: auto; */
+  width: 50px;
+}
+.titutlo{
+
+  text-align: center;
+  padding: 2em;
+
+}
+.titutlo  select {
+    width: 50%;
+    height: 40px;
+    outline: none;
+}
+
+.Raya{
+  border: 1px solid beige;
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1em;
+ 
+}
+.Raya  > * {
+  width: 20%;
+
+}
+
+.Raya input{
+      outline: none;
+      /* width: 300px; */
+      height: 40px;
+}
+
+.inputname{
+
+  display: flex;
+  justify-content: space-around;
+}
+.input_Desvio{
+
+  margin-bottom: 1em;
+
+}
+.input_Desvio> * {
+   width: 100%;
+}
+.input_Desvio  p  {
+
+  color: rgb(185, 142, 142);
+}
+strong{
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 80px;
+  justify-content: space-around;
+  border-radius: 5px;
+  /* background-color: whitesmoke; */
+}
+
+
+.librosapp{
+
+
+  letter-spacing: 10px;
+  color:  rgb(176, 180, 180);
+  font-weight: 500;
+
+}
+.darh-mode{
+
+      position: absolute;
+      right: 0;
+      border: 1px solid rgb(196, 189, 189);
+      width: 5%;
+      display: flex;
+      justify-content: space-around;
+      border-radius: 5px;
+      padding: 0.5em;
+
+}
+
+
+@media screen  and (  max-width:  900px) {
+  
+      .Raya{
+
+
+
+            border: 1px solid rgb(231, 228, 233);
+            flex-direction: column;
+            
+      }
+            .Raya
+             >  * {
+
+                width: 400px;
+
+             }
+             .Raya  select  {
+                width: 400px;
+
+
+             }
+
+        .librosapp{
+
+              font-size: 2em;
+
+        }
+
+      
+} 
